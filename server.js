@@ -185,7 +185,7 @@ app.delete("/delete/:id", async (req, res) => {
 mongoose.connect("mongodb+srv://viviannzemeke:i10yCgMhrdGkvGAT@cluster0.hreycm6.mongodb.net/").then(()=>{
     console.log(`database is successful`)
 }).catch((err)=> {
-    console.log(`unable to connect ${err}`)
+    console.log(`unable to connect to database ${err}`)
 })
 
 
